@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .static{
+        position: static;
+        border: 3px solid red;}
+        .relative{
+            height: 5vw;
+            position: relative;
+            border: 3px solid green;
+        }
+        .fixed{
+            height: 5vw;
+            position: fixed;
+            border:3px solid blue;
+            border-radius: 10px;
+        }
+        div.relative {
+            height: 10vw;
+
+  position: relative;
+  left:30px;
+  border-radius: 10px;
+}
+div.absolute {
+  position: absolute;
+  
+  width: 200vw;
+  height: 20px;
+  border: 3px solid #73AD21;
+}
+  div.sticky {
+    width: 200vw;
+   height: 20px;
+  position: sticky;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+
+    </style>
+</head>
+<body>
+    <h2>position:static;</h2>
+    
+        <div class="static">
+            This div is position static</div>
+
+        <h2>position:relative;</h2>
+            <div class="relative">This div is position static</div>
+
+                    <h2>position:absolute</h2>
+                    <p>An element with ace even</p>
+                    <div class="absolute">This div is position absolute</div><br>
+
+                    <h2>position:sticky</h2>
+                    <p>An element with position: sticky;
+                     is positioned relative to the viewport, 
+                     which means it always stays in the same place even</p>
+                    <div class="sticky">This div is sticky </div>
+
+                      <h2>position:fixed</h2>
+                      <p>An element with he same place even
+                     </p><div class="fixed"> This is positon fixed</div>
+
+                      <h2>css Overflow</h2>
+                      <p>By box:An element with he same place even</p>
+                        <div></div>
+                        <div></div>
+</body>
+</html>
